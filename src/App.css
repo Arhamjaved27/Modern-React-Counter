@@ -2,20 +2,31 @@
   --bg-primary: #111827;   
   --placeholder: #6b7280;   
   --text:    #ffffff;   
+  --white:   #f9fafb;
+  --dark:   #10151b;
   
   --goal-30: #6366f1;
   --goal-50: #f97316;
   --goal-reached:  #047857; 
 
-  --btn-background:  #059669;   
-  --color-green-400:  #34d399;
 
-  --color-red-800:    #991b1b;
-  --color-red-500:    #ef4444;   
-  
+   --gradient-1:#ff6ec4;
+   --gradient-2:#7873f5;
+   --gradient-3:#4ade80;
+   --gradient-4:#facc15;
+   --gradient-5:#34d399;
+
+
+  --btn-background:  #059669;   
+  --btn-hover:  #9e9e9e17;
 }
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
