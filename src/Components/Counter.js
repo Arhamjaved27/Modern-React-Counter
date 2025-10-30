@@ -24,7 +24,7 @@ function Counter() {
         const percentage = (count / totalgoal) * 100;
         if (percentage >= 0 && percentage < 10) {
             document.body.style.backgroundColor = ''; // default color
-            setMessage("Set your goal and start cossunting!");
+            setMessage("Set your goal and start counting!");
         } else if (percentage >= 10 && percentage < 30) {
             document.body.style.backgroundColor = '#1d1955ff';
             setMessage("Keep going, you're doing great!");
