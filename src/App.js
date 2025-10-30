@@ -5,15 +5,10 @@ import Form from "./Components/Form";
 
 function App() {
   return (
-    <>
-     <div className="main">
+    <div className="main">
       <Counter/>
-
       <Form/>
-
-     </div>
-    
-    </>
+    </div>
   );
 }
 

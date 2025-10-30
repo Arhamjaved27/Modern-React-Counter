@@ -33,16 +33,12 @@
 body {
     font-family: 'Inter', sans-serif;
     transition: background-color 0.8s ease-in-out; 
-    user-select: none; 
-    overflow: hidden;
+    /* user-select: none;  */
     background-color: var(--bg-primary);
     color: var(--text);
 }
 
-.goal-input {
-    transition: border-color 0.3s, background-color 0.3s;
-}
 
-.app-container {
-  padding: 30px;
+.main{
+  height: 200vh;
 }

@@ -21,7 +21,6 @@ function Counter() {
         setIsBouncing(true);
         const id = setTimeout(() => setIsBouncing(false), 500);
 
-        // Calculate percentage and change background color
         const percentage = (count / totalgoal) * 100;
         if (percentage >= 0 && percentage < 10) {
             document.body.style.backgroundColor = ''; // default color
@@ -33,10 +32,10 @@ function Counter() {
             document.body.style.backgroundColor = '#003553ff';
             setMessage("You're almost halfway there!");
         } else if (percentage >= 50 && percentage < 70) {
-            document.body.style.backgroundColor = ' #6b2d00ff';
+            document.body.style.backgroundColor = ' #810041ff';
             setMessage("More than halfway done, keep it up!");
         } else if (percentage >= 70 && percentage < 100) {
-            document.body.style.backgroundColor = '#610d0dff';
+            document.body.style.backgroundColor = '#6d1a1aff';
             setMessage("Just a little more to reach your goal!");
         } else {
             document.body.style.backgroundColor = '#005e43ff';

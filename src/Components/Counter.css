@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 .btn-contaner{
@@ -82,9 +83,6 @@
     text-align: center;
 }
 
-
-
-
 .counter-number{
     font-size: 15rem;
     font-weight: 600;
@@ -137,24 +135,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* //add gradient color wawe effect in modern counter text  */
 @keyframes gradientWave {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
