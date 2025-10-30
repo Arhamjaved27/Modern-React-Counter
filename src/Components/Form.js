@@ -52,7 +52,7 @@ function Form() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="your.email@flow.com"
+              placeholder="your.email@lab.com"
               required
             />
           </div>
