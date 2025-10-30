@@ -43,7 +43,7 @@ function Counter() {
         }
 
         return () => clearTimeout(id);
-    }, [count]);
+    }, [count, totalgoal]);
 
 const handleTotalGoalChange = (e) => {
     const val = Number(e.target.value);
