@@ -1,9 +1,11 @@
 # Modern React Counter
 
 The Modern React Counter & Feedback Form is an interactive web application built using React.js.
+
 It consists of two main components
 - A Modern Counter that visually tracks progress toward a user-defined goal.
 - A Feedback Form that allows users to submit their name, email, and message.
+
 The counter dynamically changes the background color of the page and displays motivational messages based on progress percentage. It includes increment/decrement buttons, a reset function, and a smooth bounce animation for better user engagement.
 The feedback form uses React state management to collect user input and display it upon submission. 
 
@@ -31,8 +33,10 @@ Steps:
 
 1.	Download or clone the project folder
 ```powershell
+
 #run this command in  terminal
 git clone https://github.com/yourusername/modern-react-counter.git
+
 #then go inside the folder
 cd modern-react-counter
 ```
